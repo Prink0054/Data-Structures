@@ -1,4 +1,5 @@
 # ============================Using While Loop =========================
+
 def linearSearch(myItem,myList):
     found = False
     position = 0
