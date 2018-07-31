@@ -1,16 +1,16 @@
-stack = ["raja","ravi","rahu"]
-stack.append("vb")
-stack.append("mn")
-print(stack)
-stack.pop()
-print(stack)
-stack.pop()
-print(stack)
-
-
-
-
-
+from collections import deque
+queue = deque(["rahul","er"])
+print(queue)
+queue.append("mn")
+print(queue)
+queue.append("mk")
+print(queue)
+queue.popleft()
+print(queue)
+queue.pop()
+print(queue)
+queue.pop()
+print(queue)
 
 
 
