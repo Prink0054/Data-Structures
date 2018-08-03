@@ -11,11 +11,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Implementation of Singly Linklist.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Implementation of Singly Linklist.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Implementation of Singly Linklist.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Traversing of linklist.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Traversing of linklist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -34,6 +43,7 @@
       <list>
         <option value="$PROJECT_DIR$/Singly Linklist.py" />
         <option value="$PROJECT_DIR$/Implementation of Singly Linklist.py" />
+        <option value="$PROJECT_DIR$/Traversing of linklist.py" />
       </list>
     </option>
   </component>
@@ -127,6 +137,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Traversing of linklist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
         </state>
       </provider>
     </entry>
