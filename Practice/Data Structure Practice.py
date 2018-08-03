@@ -9,11 +9,28 @@ class Node():
             print(node.value)
             node = node.nextnode
 
+    def duplicates(self):
+        els = []
+        node = self
+        previous = None
+        while node != None:
+            if node.value in els:
+                previous.nextnode = node.nextnode
+            else:
+                els.append(node.value)
+            previous = node
+            node = node.nextnode
+
+
+
 a = Node(1)
 b = Node(2)
 c = Node(3)
+d = Node(1)
 a.nextnode = b
 b.nextnode = c
+c.nextnode = d
+a.duplicates()
 a.traverse()
 
 
@@ -21,26 +38,6 @@ a.traverse()
 
 
 
-    #
-    # s = Node(1)
-    # node1 = Node(1)
-    # node2 = Node(2)
-    # node3 = Node(3)
-    # print("I")
-    # node1.next = node2
-    # node2.next = node3
-    #
-    # node1.traverse()
-
-
-
-
-#
-# class Node():
-#     def __init__(self,val):
-#         self.val = val
-#         self.next = None
-#
 
 
 
