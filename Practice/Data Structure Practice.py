@@ -1,17 +1,121 @@
-from collections import deque
-queue = deque(["rahul","er"])
-print(queue)
-queue.append("mn")
-print(queue)
-queue.append("mk")
-print(queue)
-queue.popleft()
-print(queue)
-queue.pop()
-print(queue)
-queue.pop()
-print(queue)
+class Node():
+    def __init__(self,value):
+        self.value = value
+        self.nextnode = None
 
+    def traverse(self):
+        node = self
+        while node != None:
+            print(node.value)
+            node = node.nextnode
+
+a = Node(1)
+b = Node(2)
+c = Node(3)
+a.nextnode = b
+b.nextnode = c
+a.traverse()
+
+
+
+
+
+
+    #
+    # s = Node(1)
+    # node1 = Node(1)
+    # node2 = Node(2)
+    # node3 = Node(3)
+    # print("I")
+    # node1.next = node2
+    # node2.next = node3
+    #
+    # node1.traverse()
+
+
+
+
+#
+# class Node():
+#     def __init__(self,val):
+#         self.val = val
+#         self.next = None
+#
+
+
+
+
+# a = Node(1)
+# b = Node(2)
+# c = Node(3)
+#
+# a.nextnode = b
+# b.nextnode = c
+# a.traverse()
+# b.traverse()
+# c.traverse()
+#
+#
+#
+#
+#
+# # isthis is the best thing i had ever seen in my life o occupy the system to demonstrate the source of
+# # print(destination)
+# while print(hghjg):
+#     p)
+#
+# class Data:
+#     if a = 10:
+#         print("print")
+#     else:
+#         print("hello")
+#
+#     ellipsis:
+#         print("hi how are you?")
+# class Node:
+#
+#     def __init__(self, value):
+#         self.value = value
+#         self.nextnode  = None
+# a = Node(1)
+# b = Node(2)
+# c = Node(3)
+# d = Node(4)
+# e = Node(5)
+#
+# a.nextnode = b
+# b.nextnode = c
+# c.nextnode = d
+# d.nextnode = e
+#
+# # This would return the node d with a value of 4, because its the 2nd to last node.
+# target_node = nth_to_last_node(2, a)
+#
+#
+#      def nth_to_last_node(n, head):
+#         left_pointer = head
+#         right_pointer = head
+#
+#         # Set right pointer at n nodes away from head
+#         for i in xrange(n - 1):
+#
+#             # Check for edge case of not having enough nodes!
+#             if not right_pointer.nextnode:
+#                 raise LookupError('Error: n is larger than the linked list.')
+#
+#             # Otherwise, we can set the block
+#             right_pointer = right_pointer.nextnode
+#
+#         # Move the block down the linked list
+#         while right_pointer.nextnode:
+#             left_pointer = left_pointer.nextnode
+#             right_pointer = right_pointer.nextnode
+#
+#         # Now return left pointer, its at the nth to last element!
+#         return left_pointer
+#
+#
+#
 
 
 # # Node class
