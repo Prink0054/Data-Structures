@@ -21,22 +21,72 @@ class Node():
             previous = node
             node = node.nextnode
 
+    def lastnode(self,k):
+        if k < 0:
+            return None
+        i = -1
+        node = self
+        p2 = self
+        while node != None:
+            node = node.nextnode
+            if i < k:
+                i += 1
+            else:
+                p2 = p2.nextnode
+        if i == k:
+            return p2.value
+        else:
+            return None
 
 
-a = Node(1)
-b = Node(2)
-c = Node(3)
-d = Node(1)
+
+a = Node(3)
+b = Node(4)
+c = Node(5)
+d = Node(6)
 a.nextnode = b
 b.nextnode = c
 c.nextnode = d
 a.duplicates()
+
+
 a.traverse()
 
+print(a.lastnode(3))
 
 
-
-
+#
+#
+# class Node():
+#     def kth_to_last(self,k):
+#         if k < 0:
+#             return None
+#         p1 = self
+#         p2 = self
+#         i = -1
+#         while p1 != None:
+#             p1 = p1.next
+#             if i < k:
+#                 i += 1
+#             else:
+#                 p2 = p2.next
+#         if i == k:
+#             return p2.val
+#         else:
+#             return None
+#
+# if __name__ == "__main__":
+#     node1 = Node(1)
+#     node2 = Node(2)
+#     node3 = Node(3)
+#     node4 = Node(1)
+#     node1.next = node2
+#     node2.next = node3
+#     node3.next = node4
+#     print(node1.kth_to_last(2))
+#     print(node1.kth_to_last(-10))
+#
+#
 
 
 
