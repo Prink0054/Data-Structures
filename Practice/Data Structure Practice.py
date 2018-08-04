@@ -1,61 +1,34 @@
-class Node():
-    def __init__(self,value):
-        self.value = value
-        self.nextnode = None
-
-    def traverse(self):
-        node = self
-        while node != None:
-            print(node.value)
-            node = node.nextnode
-
-    def duplicates(self):
-        els = []
-        node = self
-        previous = None
-        while node != None:
-            if node.value in els:
-                previous.nextnode = node.nextnode
-            else:
-                els.append(node.value)
-            previous = node
-            node = node.nextnode
-
-    def lastnode(self,k):
-        if k < 0:
-            return None
-        i = -1
-        node = self
-        p2 = self
-        while node != None:
-            node = node.nextnode
-            if i < k:
-                i += 1
-            else:
-                p2 = p2.nextnode
-        if i == k:
-            return p2.value
+def balance_check(s):
+    chars = []
+    matches = {')':'(',']':'[','}':'{'}
+    for c in s:
+        if c in matches:
+            if chars.pop() != matches[c]:
+                return False
         else:
-            return None
+            chars.append(c)
+    return chars == []
+    pass
+
+
+print(balance_check("[]"))
+print(balance_check("[()]"))
 
 
 
-a = Node(3)
-b = Node(4)
-c = Node(5)
-d = Node(6)
-a.nextnode = b
-b.nextnode = c
-c.nextnode = d
-a.duplicates()
+
+# from collections import deque
+# queue = deque(["Ram", "Tarun", "Asif", "John"])
+# print(queue)
+# queue.append("Akbar")
+# print(queue)
+# print(queue.popleft())
+# # print(queue.popleft())
+# print(queue)
 
 
-a.traverse()
-
-print(a.lastnode(3))
 
 
-#
 #
 # class Node():
 #     def kth_to_last(self,k):
