@@ -21,10 +21,10 @@
         </entry>
       </file>
       <file leaf-file-name="String Compression.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/String Compression.py">
+        <entry file="file://$PROJECT_DIR$/String Compression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="105">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -43,6 +43,7 @@
       <list>
         <option value="$PROJECT_DIR$/Check Anagrams in String.py" />
         <option value="$PROJECT_DIR$/venv/String Compression.py" />
+        <option value="$PROJECT_DIR$/String Compression.py" />
       </list>
     </option>
   </component>
@@ -63,11 +64,6 @@
             <path>
               <item name="Interview Array and String Questions" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interview Array and String Questions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interview Array and String Questions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interview Array and String Questions" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,10 +128,10 @@
     <frame x="0" y="23" width="1280" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972136" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32972136" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -162,6 +158,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/String Compression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Check Anagrams in String.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -169,10 +172,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/String Compression.py">
+    <entry file="file://$PROJECT_DIR$/String Compression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="105">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
