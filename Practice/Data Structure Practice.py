@@ -1,31 +1,33 @@
-def anagram(s,t):
-    s = s.replace(' ', '').lower()
-    print(s)
-    t = t.replace(' ', '').lower()
+def compress(s):
+    r = ""
+    l = len(s)
 
-    if len(s) != len(t):
-        return False
-    counter = {}
-    for letter in s:
-        if letter in counter:
-            counter[letter] += 1
-        else:
-            counter[letter] = 1
-    for letter in t:
-        if letter in counter:
-            counter[letter] -= 1
-        else:
-            return False
+    if l == 0:
+        return ''
+    if l == 1:
+        return s + '1'
 
-    for k in counter:
-        if counter[k] != 0:
-            return False
-    return True
+    last = s[0]
+    cnt = 1
+    i = 1
+
+    while i < l :
+
+
+        if s[i] == s[i-1]:
+
+            cnt += 1
+
+        else:
+            r = r + s[i-1] + str(cnt)
+            cnt = 1
+        i += 1
+    r = r + s[i - 1] + str(cnt)
+    return r
     pass
 
 
-print(anagram('Dog', 'god'))
-
+print((compress('HHBBB')))
 
 
 
