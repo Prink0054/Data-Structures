@@ -20,11 +20,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="String Compression.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="String Compression.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/String Compression.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="296">
               <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Remove Vowels.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/Remove Vowels.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -44,6 +53,7 @@
         <option value="$PROJECT_DIR$/Check Anagrams in String.py" />
         <option value="$PROJECT_DIR$/venv/String Compression.py" />
         <option value="$PROJECT_DIR$/String Compression.py" />
+        <option value="$PROJECT_DIR$/venv/Remove Vowels.py" />
       </list>
     </option>
   </component>
@@ -64,6 +74,11 @@
             <path>
               <item name="Interview Array and String Questions" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interview Array and String Questions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interview Array and String Questions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interview Array and String Questions" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,6 +214,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Remove Vowels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

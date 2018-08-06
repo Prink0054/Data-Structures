@@ -1,39 +1,23 @@
-def compress(s):
-    r = ""
-    l = len(s)
+def antivowel(c):
+    newstr = c
+    vowels = ('a', 'e', 'i', 'o', 'u')
+    for x in c.lower():
+        if x in vowels:
+            newstr = newstr.replace(x,"")
 
-    if l == 0:
-        return ''
-    if l == 1:
-        return s + '1'
+    return newstr
 
-    last = s[0]
-    cnt = 1
-    i = 1
-
-    while i < l :
-
-
-        if s[i] == s[i-1]:
-
-            cnt += 1
-
-        else:
-            r = r + s[i-1] + str(cnt)
-            cnt = 1
-        i += 1
-    r = r + s[i - 1] + str(cnt)
-    return r
-    pass
-
-
-print((compress('HHBBB')))
+print(antivowel("awejwqjkdkw"))
 
 
 
 
-# class Node():
-#     def __init__(self,value):
+
+#
+# class data():
+#     pass:
+# # class Node():
+# #     def __init__(self,value):
 #         self.value = value
 #         self.nextnode = None
 #
