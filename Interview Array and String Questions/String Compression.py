@@ -27,5 +27,4 @@ def compress(s):
     pass
 
 
-print((compress('HHBBB')))
-
+print(compress("hhvvv"))
