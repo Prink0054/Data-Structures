@@ -1,18 +1,151 @@
-def balance_check(s):
-    chars = []
-    matches = {')':'(',']':'[','}':'{'}
-    for c in s:
-        if c in matches:
-            if chars.pop() != matches[c]:
-                return False
+def anagram(s,t):
+    s = s.replace(' ', '').lower()
+    print(s)
+    t = t.replace(' ', '').lower()
+
+    if len(s) != len(t):
+        return False
+    counter = {}
+    for letter in s:
+        if letter in counter:
+            counter[letter] += 1
         else:
-            chars.append(c)
-    return chars == []
+            counter[letter] = 1
+    for letter in t:
+        if letter in counter:
+            counter[letter] -= 1
+        else:
+            return False
+
+    for k in counter:
+        if counter[k] != 0:
+            return False
+    return True
     pass
 
 
-print(balance_check("[]"))
-print(balance_check("[()]"))
+print(anagram('Dog', 'god'))
+
+
+
+
+
+# class Node():
+#     def __init__(self,value):
+#         self.value = value
+#         self.nextnode = None
+#
+#     def traverse(self):
+#         node = self
+#         while node != None:
+#             print(node.value)
+#             node = node.nextnode
+#     #
+#     # def duplicates(self):
+#     #     els = []
+#     #     node = self
+    #     previous = None
+    #     while node != None:
+    #         if node.value in els:
+    #             previous.nextnode = node.nextnode
+    #         else:
+    #             els.append(node.value)
+    #         previous = node
+    #         node = node.nextnode
+    #
+    # def lastnode(self, k):
+    #     if k < 0:
+    #         return None
+    #     i = -1
+    #     node = self
+    #     p2 = self
+    #     while node != None:
+    #         node = node.nextnode
+    #         if i < k:
+    #             i += 1
+    #         else:
+    #             p2 = p2.nextnode
+    #     if i == k:
+    #         return p2.value
+    #     else:
+    #         return None
+#
+# a = Node(1)
+# b = Node(2)
+# c = Node(3)
+# d = Node(2)
+# e = Node(7)
+#
+# a.nextnode = b.
+# b.nextnode = c
+# c.nextnode = d
+# a.duplicates()
+# a.traverse()
+
+
+# def data(s):
+#     char = []
+#     matches = {')':'(',']':'[','}':'{'}
+#     for c in s:
+#         # print(c)
+#         if c in matches:
+#             if char.pop() != matches[c]:
+#                     return False
+#             else:
+#                 char.append(c)
+#     return char == []
+#     pass
+# print(data("[()]"))
+#
+# def balance_check(s):
+#     chars = []
+#     matches = {')':'(',']':'[','}':'{'}
+#     for c in s:
+#         if c in matches:
+#             print(matches[c])
+#             if chars.pop() != matches[c]:
+#                 return False
+#         else:
+#             chars.append(c)
+# #             print(chars)
+# #     # print(chars)
+# #     return chars == []
+# #     pass
+#
+#
+# print(balance_check("([])"))
+# # print(balance_check("[()]"))
+#
+#
+#
+#
+#
+
+
+
+
+
+
+
+
+
+
+
+# def balance_check(s):
+#     chars = []
+#     matches = {')':'(',']':'[','}':'{'}
+#     for c in s:
+#         if c in matches:
+#             if chars.pop() != matches[c]:
+#                 return False
+#         else:
+#             chars.append(c)
+#     return chars == []
+#     pass
+#
+#
+# print(balance_check("[]"))
+# print(balance_check("[()]"))
 
 
 
