@@ -20,11 +20,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Traversing of linklist.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Traversing of linklist.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Traversing of linklist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="330">
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -38,11 +38,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Insertion of element at begining of head.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Insertion of element at begining of head.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Linked List Nth to Last Node.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linked List Nth to Last Node.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="56" />
+              <caret column="28" selection-start-column="28" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -64,6 +73,7 @@
         <option value="$PROJECT_DIR$/Linked List Nth to Last Node.py" />
         <option value="$PROJECT_DIR$/Implementation of Singly Linklist.py" />
         <option value="$PROJECT_DIR$/Traversing of linklist.py" />
+        <option value="$PROJECT_DIR$/Insertion of linklist at begining of head.py" />
       </list>
     </option>
   </component>
@@ -148,6 +158,34 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Implementation of Singly Linklist.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deletion of Duplicate Nodes].py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linked List Nth to Last Node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Traversing of linklist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Implementation of Singly Linklist.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
@@ -213,7 +251,7 @@
     <entry file="file://$PROJECT_DIR$/Linked List Nth to Last Node.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="56" />
+          <caret column="28" selection-start-column="28" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -224,6 +262,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Traversing of linklist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Deletion of Duplicate Nodes].py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -231,10 +276,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Traversing of linklist.py">
+    <entry file="file://$PROJECT_DIR$/Insertion of element at begining of head.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
