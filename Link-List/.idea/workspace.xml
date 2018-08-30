@@ -41,7 +41,7 @@
       <file leaf-file-name="Insertion of element at begining of head.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Insertion of element at begining of head.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="1545">
               <caret line="103" column="29" lean-forward="true" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
             </state>
           </provider>
@@ -65,11 +65,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Linked List Nth to Last Node.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Linked List Nth to Last Node.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linked List Nth to Last Node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
+            <state relative-caret-position="569">
               <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reversing of linklist.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Reversing of linklist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -95,6 +104,7 @@
         <option value="$PROJECT_DIR$/Insertion of element at begining of head.py" />
         <option value="$PROJECT_DIR$/Deletion of element from linklist.py" />
         <option value="$PROJECT_DIR$/Linked List Nth to Last Node.py" />
+        <option value="$PROJECT_DIR$/Reversing of linklist.py" />
       </list>
     </option>
   </component>
@@ -108,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,6 +134,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,13 +192,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Implementation of Singly Linklist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Traversing of linklist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -507,7 +510,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Insertion of element at begining of head.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="1545">
           <caret line="103" column="29" lean-forward="true" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
         </state>
       </provider>
@@ -528,8 +531,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Linked List Nth to Last Node.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
+        <state relative-caret-position="569">
           <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reversing of linklist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
