@@ -7,28 +7,23 @@ class SLinklist :
     def __init__(self):
         self.headvalue = None
 
-    def RemoveNode(self, Removekey):
+    def lastnode(self, k):
+        if k < 0:
+            return None
+        i = -1
+        node = self.headvalue
+        p2 = self.headvalue
+        while node != None:
+            node = node.nextnode
+            if i < k:
+                i += 1
+            else:
+                p2 = p2.nextnode
 
-        HeadVal = self.headvalue
-
-        if (HeadVal is not None):
-            if (HeadVal.value == Removekey):
-                self.headvalue = HeadVal.nextnode
-                HeadVal = None
-                return
-
-        while (HeadVal is not None):
-            if HeadVal.value == Removekey:
-                break
-            prev = HeadVal
-            HeadVal = HeadVal.nextnode
-
-        if (HeadVal == None):
-            return
-
-        prev.nextnode = HeadVal.nextnode
-
-        HeadVal = None
+        if i == k:
+            return p2.value
+        else:
+            return None
 
     def traverse(self):
         node = self.headvalue
@@ -45,6 +40,10 @@ c = Node("wed")
 a.headvalue.nextnode = b
 b.nextnode = c
 # a.Inbetween(a.headvalue,"hiii")
-a.RemoveNode("wed")
+# a.RemoveNode("wed")
 a.traverse()
+print(a.lastnode(0))
+
+
+
 
