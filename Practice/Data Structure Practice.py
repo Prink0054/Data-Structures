@@ -1,38 +1,35 @@
-class Node():
+class Node :
     def __init__(self,value):
         self.value = value
         self.nextnode = None
 
-
-class Slinklist():
+class SLinklist :
     def __init__(self):
         self.headvalue = None
 
-    def insert(self,value):
-       Newnode = Node(5)
-       if self.headvalue is None:
-            self.headvalue = Newnode
-            return
+    def Inbetween(self, middle_node, newdata):
+        # if middle_node is None:
+        #     print("The mentioned node is absent")
+        #     return
 
-       last = self.headvalue
-       while(last.nextnode):
-            last = last.nextnode
-       last.nextnode = Newnode
-
-
+        NewNode = Node(newdata)
+        NewNode.nextnode = middle_node.nextnode
+        middle_node.nextnode = NewNode
 
     def traverse(self):
         node = self.headvalue
-        while node!= None:
+        while node != None:
             print(node.value)
             node = node.nextnode
 
-a = Slinklist()
-a.headvalue = Node(1)
-b = Node(2)
-c = Node(3)
+
+a = SLinklist()
+a.headvalue = Node("Mon")
+b = Node("TUE")
+c = Node("wed")
 
 a.headvalue.nextnode = b
 b.nextnode = c
-a.insert(5)
+a.Inbetween(a.headvalue,"hiii")
 a.traverse()
+
