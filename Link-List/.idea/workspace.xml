@@ -68,17 +68,26 @@
       <file leaf-file-name="Linked List Nth to Last Node.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linked List Nth to Last Node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
+            <state relative-caret-position="735">
               <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reversing of linklist.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Reversing of linklist.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Reversing of linklist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="569">
               <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Find the middle element of a linked list.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Find the middle element of a linked list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -105,6 +114,7 @@
         <option value="$PROJECT_DIR$/Deletion of element from linklist.py" />
         <option value="$PROJECT_DIR$/Linked List Nth to Last Node.py" />
         <option value="$PROJECT_DIR$/Reversing of linklist.py" />
+        <option value="$PROJECT_DIR$/Find the middle element of a linked list.py" />
       </list>
     </option>
   </component>
@@ -192,13 +202,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Traversing of linklist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Deletion of Duplicate Nodes].py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -531,15 +534,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Linked List Nth to Last Node.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
+        <state relative-caret-position="735">
           <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Reversing of linklist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
+        <state relative-caret-position="569">
           <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Find the middle element of a linked list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
