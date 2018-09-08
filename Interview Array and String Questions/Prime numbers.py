@@ -1,3 +1,18 @@
+a = 5
+if a>1:
+    for i in range(2,a):
+        if(a%2==0):
+            print("number is not prime")
+            break
+        else:
+            print("prime")
+
+else:
+    print("not prime")
+
+
+
+
 lower = 2
 upper = 100
 count = 0
